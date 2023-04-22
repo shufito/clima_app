@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <div className="flex items-center justify-center h-screen bg-[#0F131F] ">
-        <div className="relative bg-slate-300 px-8 py-6 overflow-hidden rounded-2xl">
+        <div className="relative bg-slate-300 px-8 py-6 overflow-hidden rounded-2xl m-4 lg:m-0">
           <div className="flex items-center justify-center w-full h-min">
             <MdLocationOn className="text-[#0F131F] text-3xl font-bold" />
             <input

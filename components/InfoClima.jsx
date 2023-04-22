@@ -7,7 +7,7 @@ const InfoClima = ({ data }) => {
       <div className="text-center mt-6">
         <div className="flex items-center justify-center mt-8 ">
           <Image
-            src={`/img/${data.weather[0].icon}.png`}
+            src={`./img/${data.weather[0].icon}.png`}
             alt="/"
             width="100"
             height="100"
